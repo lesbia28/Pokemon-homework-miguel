@@ -1,0 +1,116 @@
+.list-container {
+    /* border: 2px solid yellow; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #f0f0f0aa;
+    border-radius: 0 30px 0 0;
+    padding: 1.2rem 0;
+}
+
+.pokedex-list {
+    /* border: 1px solid tomato; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.pokedex-list li {
+    /* border: 1px solid violet; */
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    margin-left: 15%;
+    width: 70%;
+    padding-right: 4rem;
+    transition: all 200ms;
+    z-index: 1;
+}
+
+.pokedex-list > li:hover {
+    background: #fff8;
+}
+
+.image-big {
+    /* border: 1px solid red; */
+    width: 80px;
+
+}
+.image-medium {
+    /* border: 1px solid red; */
+    width: 70px;
+    margin: 0 5px;
+}
+.image-small {
+    /* border: 1px solid red; */
+    width: 60px;
+    margin: 0 10px;
+}
+
+.pokedex-list a {
+    text-decoration: none;
+    color: #333a;
+    font-size: 1.3rem;
+    font-weight: 500;
+    width: 40%;
+    /* border: 1px solid red; */
+}
+
+.page-controls {
+    /* border: 1px solid blue; */
+    width: 100%;
+    position: relative;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+
+.page-back,
+.page-fwd {
+    width: 50%;
+    height: 50px;
+}
+
+.page-back {
+    /* border: 1px solid red; */
+
+}
+
+.page-fwd {
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+
+.page-controls button {
+    width: 15%;
+    height: 100%;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #444d;
+    background-color: #fff5;
+    transition: all 200ms;
+}
+
+.page-controls button:hover {
+    background-color: #fff9;
+}
+
+.page-controls button:active {
+    background-color: #fffd;
+}
+
+.pokedex-page-back10 {
+    border-radius: 0 15px 0 0;
+}
+
+.pokedex-page-fwd10 {
+    border-radius: 15px 0 0 0;
+}

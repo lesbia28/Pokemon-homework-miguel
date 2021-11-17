@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+@font-face {
+    font-family: "Porter Sans";
+    src: local("Porter Sans"), url(./assets/fonts/porterSans/porter-sans.ttf) format("truetype");
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #e6e6e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    /* border: 2px solid rebeccapurple; */
+    height: 85vh;
+    width: 70vw;
+    max-width: 1300px;
+    min-width: 900px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(223, 223, 223);
+    box-shadow: rgba(50, 50, 93, 0.20) 0px 6px 12px -2px, rgba(0, 0, 0, 0.2) 0px 3px 7px -3px;
+}
+
+#outlet {
+    /* border: 2px solid greenyellow; */
+    height: 100%;
+}
+
+
+/****************/
+/* TYPES COLORS */
+/****************/
+
+.type img {
+    width: 50px;
+}
+
+
+.type.bug {
+    box-shadow: 0 0 6px #92BC2Caa;
+}
+.bug img{
+    background-color: #92BC2C;
+    box-shadow: 0 0 5px #92BC2C88;
+}
+
+.type.dark {
+    box-shadow: 0 0 6px #595761aa;
+}
+.dark img{
+    background-color: #595761;
+    box-shadow: 0 0 5px #59576188;
+}
+
+.type.dragon {
+    box-shadow: 0 0 6px #0C69C8aa;
+}
+.dragon img{
+    background-color: #0C69C8;
+    box-shadow: 0 0 5px #0C69C888;
+}
+
+.type.electric {
+    box-shadow: 0 0 6px #F2D94Eaa;
+}
+.electric img{
+    background-color: #F2D94E;
+    box-shadow: 0 0 5px #F2D94E88;
+}
+
+.type.fairy {
+    box-shadow: 0 0 6px #EE90E6aa;
+}
+.fairy img{
+    background-color: #EE90E6;
+    box-shadow: 0 0 5px #EE90E688;
+}
+
+.type.fighting {
+    box-shadow: 0 0 6px #D3425Faa;
+}
+.fighting img{
+    background-color: #D3425F;
+    box-shadow: 0 0 5px #D3425F88;
+}
+
+.type.fire {
+    box-shadow: 0 0 6px #FBA54Caa;
+}
+.fire img{
+    background-color: #FBA54C;
+    box-shadow: 0 0 5px #FBA54C88;
+}
+
+.type.flying {
+    box-shadow: 0 0 6px #A1BBECaa;
+}
+.flying img{
+    background-color: #A1BBEC;
+    box-shadow: 0 0 5px #A1BBEC88;
+}
+
+.type.ghost {
+    box-shadow: 0 0 6px #5F6DBCaa;
+}
+.ghost img{
+    background-color: #5F6DBC;
+    box-shadow: 0 0 5px #5F6DBC88;
+}
+
+.type.grass {
+    box-shadow: 0 0 6px #5FBD58aa;
+}
+.grass img{
+    background-color: #5FBD58;
+    box-shadow: 0 0 5px #5FBD5888;
+}
+
+.type.ground {
+    box-shadow: 0 0 6px #DA7C4Daa;
+}
+.ground img{
+    background-color: #DA7C4D;
+    box-shadow: 0 0 5px #DA7C4D88;
+}
+
+.type.ice {
+    box-shadow: 0 0 6px #75D0C1aa;
+}
+.ice img{
+    background-color: #75D0C1;
+    box-shadow: 0 0 5px #75D0C188;
+}
+
+.type.normal {
+    box-shadow: 0 0 6px #A0A29Faa;
+}
+.normal img{
+    background-color: #A0A29F;
+    box-shadow: 0 0 5px #A0A29F88;
+}
+
+.type.poison {
+    box-shadow: 0 0 6px #B763CFaa;
+}
+.poison img{
+    background-color: #B763CF;
+    box-shadow: 0 0 5px #B763CF88;
+}
+
+.type.psychic {
+    box-shadow: 0 0 6px #FA8581aa;
+}
+.psychic img{
+    background-color: #FA8581;
+    box-shadow: 0 0 5px #FA858188;
+}
+
+.type.rock {
+    box-shadow: 0 0 6px #C9BB8Aaa;
+}
+.rock img{
+    background-color: #C9BB8A;
+    box-shadow: 0 0 5px #C9BB8A88;
+}
+
+.type.steel {
+    box-shadow: 0 0 6px #5695A3aa;
+}
+.steel img{
+    background-color: #5695A3;
+    box-shadow: 0 0 5px #5695A388;
+}
+
+.type.water {
+    box-shadow: 0 0 6px #539DDFaa;
+}
+.water img{
+    background-color: #539DDF;
+    box-shadow: 0 0 5px #539DDF88;
+}

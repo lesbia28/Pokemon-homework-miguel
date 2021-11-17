@@ -1,0 +1,49 @@
+
+form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+form input,
+form select {
+    background-color: #fffd;
+    color: #333;
+}
+
+form input {
+    padding: 0 2rem;
+    width: 55%;
+    font-size: 1.3rem;
+    border-radius: 50px 0 0 50px;
+    border: 2px solid #6666;
+    border-right: none;
+}
+form select {
+    width: 30%;
+    font-size: 1.2rem;
+    padding: 0 0 0 1.5rem;
+    border: 2px solid #6666;
+    border-left: 1px solid #6666;
+    border-right: none;
+}
+
+form button {
+    width: 15%;
+    padding-right: 0.5rem;
+    border-radius: 0 50px 50px 0;
+    border: 2px solid #6666;
+    border-left: 1px solid #6666;
+    font-size: 1.2rem;
+    background-color: #eee9;
+    cursor: pointer;
+    transition: all 200ms;
+}
+
+form button:hover {
+    background-color: #fff7;
+}
+
+form button:active {
+    background-color: #fffa;
+}

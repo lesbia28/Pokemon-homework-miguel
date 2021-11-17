@@ -1,0 +1,28 @@
+<div class="list-container" >
+    <ul class="pokedex-list">
+
+        <li *ngFor="let pokemon of pokemonSidebarList; let i = index"
+        >
+            <img 
+                [src]="pokemon.spriteUrl" alt=""
+                [ngClass]="{
+                  'image-big': pokemon.id % 3 === 1,
+                  'image-medium': pokemon.id % 3 === 2,
+                  'image-small': pokemon.id % 3 === 0
+                }"
+            >
+            <a href="">{{ pokemon.name | titlecase }}</a>
+        </li>
+    </ul>
+
+    <div class="page-controls">
+        <div class="page-back">
+            <button class="pokedex-page-back" (click)="decreaseOffsetBy100()"><<</button>
+            <button class="pokedex-page-back10" (click)="decreaseOffsetBy10()"><</button>
+        </div>
+        <div class="page-fwd">
+            <button class="pokedex-page-fwd10" (click)="increaseOffsetBy10()">></button>
+            <button class="pokedex-page-fwd" (click)="increaseOffsetBy100()">>></button>
+        </div>
+    </div>
+</div>

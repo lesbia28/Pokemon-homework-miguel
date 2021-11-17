@@ -1,0 +1,24 @@
+
+<div class="trainers-page-container">
+    <app-trainers-form class="trainers-form"></app-trainers-form>
+    <!-- <app-trainers-carousel></app-trainers-carousel> -->
+    <section class="carousel">
+        <app-trainers-card 
+        [ngClass]="{
+            'card': true,
+            'card-open': true
+        }"></app-trainers-card>
+        <app-trainers-card 
+        [ngClass]="{
+            'card': true,
+            'card-open': false
+        }"></app-trainers-card>
+        <app-trainers-card 
+        [ngClass]="{
+            'card': true,
+            'card-open': false
+        }"></app-trainers-card>
+
+    </section>
+
+</div>

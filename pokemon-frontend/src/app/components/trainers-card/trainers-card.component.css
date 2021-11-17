@@ -1,0 +1,108 @@
+.card-container {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-main {
+    border-right: 3px solid #6666;
+
+    padding: 1rem 3rem;
+    padding-left: 1.7rem;
+    margin: 1rem 0;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trainer-img img{
+    width: 100px;
+}
+
+.trainer-name {
+    text-align: center;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 1rem 0;
+    padding-bottom: 1.2rem;
+}
+
+.trainer-data-first-line {
+    display: flex;
+    align-items: center;
+}
+
+.trainer-age {
+    margin-right: 1rem;
+}
+
+.team {
+    position: relative;
+    left: -0.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    /* border: 1px solid pink; */
+}
+
+.team-member {
+    width: 33%;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.team-member img {
+    width: 60px;
+}
+
+.team-member h4{
+    position: relative;
+    font-size: 0.8rem;
+    font-weight: 400;
+    top: -10px;
+}
+
+button {
+    border: none;
+    padding: 0.4rem 0.7rem;
+    font-weight: 700;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+
+.delete:hover,
+.expand:hover {
+    filter: saturate(150%);
+}
+
+.delete:active,
+.expand:active {
+    filter: brightness(130%);
+}
+
+.delete {
+    position: absolute;
+    right: 0;
+    background-color: hsl(348, 70%, 47%);
+    color: #f0f0f0;
+}
+
+.expand {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: hsl(229, 65%, 52%);
+    color: #f0f0f0;
+}
